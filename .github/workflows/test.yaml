@@ -1,0 +1,12 @@
+name: test
+
+on:
+    issues:
+        types: [opened, edited, reopened]
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Test
+              run: cat "${GITHUB_EVENT_PATH}"
