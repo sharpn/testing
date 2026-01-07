@@ -13,13 +13,13 @@ body:
       value: |
         This will create a new harness pipeline for a simple helm deployment!
   - type: input
-    id: contact
+    id: repository_name
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Repo Name
+      description: The url to your tooling repository in lbg-cloud-platform?
+      placeholder: e.g. github.com/lbg-cloud-platform/359756-pexc-clenbl-tooling.git
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
