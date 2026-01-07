@@ -1,6 +1,6 @@
 ---
 name: New Helm Deployment
-about: Configures a new service to deploy through helm
+description: Configures a new service to deploy through helm
 title: "[HELM]: "
 labels: ["helm", "harness", "onboarding"]
 # projects: ["octo-org/1", "octo-org/44"]
