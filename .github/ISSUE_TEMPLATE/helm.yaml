@@ -24,7 +24,9 @@ body:
     id: version
     attributes:
       label: Which version of the template do you wish to use?
+      description: The version of the harness template you wish to use, we recommend selecting latest.
       options:
+        - latest
         - v1.1.0
         - v1.0.0
       default: 0
