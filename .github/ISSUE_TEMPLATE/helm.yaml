@@ -31,8 +31,8 @@ body:
       description: The organisation where the application repository lives.
       options:
         - label: lbg-gcp-foundation
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: repository
     attributes:
