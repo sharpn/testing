@@ -23,7 +23,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Which version of the template do you wish to use?
+      label: Template Version
       description: The version of the harness template you wish to use, we recommend selecting latest.
       options:
         - latest
