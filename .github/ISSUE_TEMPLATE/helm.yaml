@@ -27,4 +27,7 @@ body:
       description: The name of the chart to deploy
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: ---
 ---
