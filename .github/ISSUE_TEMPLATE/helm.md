@@ -1,13 +1,12 @@
 ---
-name: Bug Report
-description: File a bug report.
-about: Testing
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
-type: bug
+name: New Helm Deployment
+about: Configures a new service to deploy through helm
+title: "[HELM]: "
+labels: ["helm", "harness", "onboarding"]
+# projects: ["octo-org/1", "octo-org/44"]
+# assignees:
+#   - octocat
+# type: bug
 body:
   - type: markdown
     attributes:
