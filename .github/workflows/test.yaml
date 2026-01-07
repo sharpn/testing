@@ -9,4 +9,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Test
-              run: cat "${GITHUB_EVENT_PATH}"
+              run: |
+                cat "${GITHUB_EVENT_PATH}"
+                echo "Issue Body: ${github.event.issue.body}"
