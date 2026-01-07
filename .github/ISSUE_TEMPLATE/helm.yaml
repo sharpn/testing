@@ -20,6 +20,11 @@ body:
       placeholder: e.g. github.com/lbg-cloud-platform/359756-pexc-clenbl-tooling.git
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## App Information
   - type: input
     id: chart_name
     attributes:
@@ -27,7 +32,12 @@ body:
       description: The name of the chart to deploy
     validations:
       required: true
-  - type: markdown
+  
+  - type: input
+    id: chart_name
     attributes:
-      value: ---
+      label: Chart Name
+      description: The name of the chart to deploy
+    validations:
+      required: true
 ---
