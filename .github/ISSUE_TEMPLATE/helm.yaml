@@ -23,7 +23,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        <br/>
         ---
         ## App Information
   - type: input
