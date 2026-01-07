@@ -13,11 +13,11 @@ body:
       value: |
         This will create a new harness pipeline for a simple helm deployment!
   - type: input
-    id: repository_name
+    id: tooling_repository_url
     attributes:
-      label: Repo Name
+      label: Tooling Repo Url
       description: The url to your tooling repository in lbg-cloud-platform
-      placeholder: e.g. github.com/lbg-cloud-platform/359756-pexc-clenbl-tooling.git
+      placeholder: github.com/lbg-cloud-platform/359756-pexc-clenbl-tooling.git
     validations:
       required: true
   - type: markdown
@@ -37,7 +37,15 @@ body:
     attributes:
       label: Namespace
       description: The namespace your app should deploy into
-      placeholder: ns-kcl-tnt01-...
+      placeholder: ns-kcl-tnt01-pppmsa-enablers-ext-apps
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Application Repo
+      description: The repo where the application lives
+      placeholder: tnt01-pppmsa-mock-external-service
     validations:
       required: true
 ---
