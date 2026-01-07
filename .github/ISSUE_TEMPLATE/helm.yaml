@@ -20,6 +20,16 @@ body:
       placeholder: github.com/lbg-cloud-platform/359756-pexc-clenbl-tooling.git
     validations:
       required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Which version of the template do you wish to use?
+      options:
+        - v1.1.0
+        - v1.0.0
+      default: 0
+  validations:
+    required: true
   - type: markdown
     attributes:
       value: |
