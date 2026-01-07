@@ -25,6 +25,21 @@ body:
       value: |
         ---
         ## App Information
+  - type: checkboxes
+    attributes:
+      label: Github Organisation
+      description: The organisation where the application repository lives.
+      options:
+        - label: lbg-gcp-foundation
+          required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repo
+      description: The repo where the application lives in lbg-gcp-foundation
+      placeholder: tnt01-pppmsa-mock-external-service
+    validations:
+      required: true
   - type: input
     id: chart_name
     attributes:
@@ -40,12 +55,5 @@ body:
       placeholder: ns-kcl-tnt01-pppmsa-enablers-ext-apps
     validations:
       required: true
-  - type: input
-    id: repository
-    attributes:
-      label: Application Repo
-      description: The repo where the application lives
-      placeholder: tnt01-pppmsa-mock-external-service
-    validations:
-      required: true
+
 ---
